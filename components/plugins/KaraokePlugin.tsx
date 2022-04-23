@@ -1,6 +1,10 @@
 import { useLexicalComposerContext } from "@lexical/react/LexicalComposerContext";
+import dayjs from "dayjs";
+import duration from "dayjs/plugin/duration";
 import React, { useCallback, useEffect, useState } from "react";
 import { KaraokeNode } from "../decorator-nodes/KaraokeNode";
+
+dayjs.extend(duration)
 
 function KaraokePlugin() {
     const [editor] = useLexicalComposerContext();
@@ -27,7 +31,10 @@ function KaraokePlugin() {
     }, [sec, editor])
 
     return <>
-        {sec}
+        시간: {dayjs.duration({
+            seconds: sec % 60,
+            minutes: Math.floor(sec / 60)
+        }).format('mm:ss')}초
         <button onClick={foo}>{!timer ? '시작' : '정지'}</button>;
     </>
 }
