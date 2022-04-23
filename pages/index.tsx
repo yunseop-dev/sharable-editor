@@ -2,8 +2,10 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Editor from '../components/Editor';
+import React from 'react';
 
-const Home: NextPage = () => {
+const Home: NextPage = (props: any) => {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -19,4 +21,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default React.memo(Home)

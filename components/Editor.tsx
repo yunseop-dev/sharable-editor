@@ -6,18 +6,21 @@ import { HistoryPlugin } from "@lexical/react/LexicalHistoryPlugin";
 import AutoFocusPlugin from "@lexical/react/LexicalAutoFocusPlugin";
 import TreeViewPlugin from "./plugins/TreeViewPlugin";
 import ToolbarPlugin from "./plugins/ToolbarPlugin";
+import LexicalOnChangePlugin from '@lexical/react/LexicalOnChangePlugin';
 import { HeadingNode, QuoteNode } from "@lexical/rich-text";
 import { TableCellNode, TableNode, TableRowNode } from "@lexical/table";
 import { ListItemNode, ListNode } from "@lexical/list";
-import { CodeHighlightNode, CodeNode } from "@lexical/code";
 import { AutoLinkNode, LinkNode } from "@lexical/link";
 import LinkPlugin from "@lexical/react/LexicalLinkPlugin";
 import ListPlugin from "@lexical/react/LexicalListPlugin";
 import LexicalMarkdownShortcutPlugin from "@lexical/react/LexicalMarkdownShortcutPlugin";
 
 import ListMaxIndentLevelPlugin from "./plugins/ListMaxIndentLevelPlugin";
-import CodeHighlightPlugin from "./plugins/CodeHighlightPlugin";
 import AutoLinkPlugin from "./plugins/AutoLinkPlugin";
+import { $getRoot, $getSelection, EditorState } from "lexical";
+import MyLoaderPlugin from "./plugins/MyLoaderPlugin";
+import React from "react";
+import { KaraokeNode } from "./decorator-nodes/KaraokeNode";
 
 function Placeholder() {
     return <div className="editor-placeholder">Enter some rich text...</div>;
@@ -27,7 +30,7 @@ const editorConfig = {
     // The editor theme
     theme: ExampleTheme,
     // Handling of errors during update
-    onError(error) {
+    onError(error: Error) {
         throw error;
     },
     // Any custom nodes go here
@@ -36,19 +39,29 @@ const editorConfig = {
         ListNode,
         ListItemNode,
         QuoteNode,
-        CodeNode,
-        CodeHighlightNode,
         TableNode,
         TableCellNode,
         TableRowNode,
         AutoLinkNode,
-        LinkNode
+        LinkNode,
+        KaraokeNode
     ]
 };
 
-export default function Editor() {
+function Editor() {
+    function onChange(editorState: EditorState) {
+        editorState.read(() => {
+            // Read the contents of the EditorState here.
+            const root = $getRoot();
+            const selection = $getSelection();
+
+            // console.log(root, selection);
+        });
+    }
+
     return (
         <LexicalComposer initialConfig={editorConfig}>
+            <MyLoaderPlugin />
             <div className="editor-container">
                 <ToolbarPlugin />
                 <div className="editor-inner">
@@ -56,10 +69,10 @@ export default function Editor() {
                         contentEditable={<ContentEditable className="editor-input" />}
                         placeholder={<Placeholder />}
                     />
+                    <LexicalOnChangePlugin onChange={onChange} />
                     <HistoryPlugin />
                     <TreeViewPlugin />
                     <AutoFocusPlugin />
-                    <CodeHighlightPlugin />
                     <ListPlugin />
                     <LinkPlugin />
                     <AutoLinkPlugin />
@@ -70,3 +83,5 @@ export default function Editor() {
         </LexicalComposer>
     );
 }
+
+export default React.memo(Editor);

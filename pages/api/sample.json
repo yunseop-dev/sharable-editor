@@ -1,0 +1,1766 @@
+{
+    "editorResult": "eJy1nN9vGzcSx/+VQM8Gof3J3bz0Dyn6oKa6Hi5pE6Ru0aIwIDtyodhKql68sexKroo6UXxQACWWczLOxf0x97ak/ocOl0uJq1w7xAhJH6qs7Pksd4cz3xmS+b52/9N/NO9s127Xvmnc+7pZ26p9dv/O1180v4RL36++XF6E7xvbDfhuZ6v25f3Pml/Vbn9s/dyn9+7fuQs/tP3dgyb89UHjYePzh40Hf1/9Xg1+w2dRmBZ/Ev0/vlWDH48iFpfX063aVw+ajbvNh2BFHJ7n85b4dVD7/9Dt5rfqxu41G9+sfwXX/qZuR/3E7ZrMOmI/W2R92Z7L0yN2C776ovHw7tovqUurMWxX771e3Or7I9jZ+WRn68/Jw3l+eSXHLXHwgkL9kycWsCAqH1i9+ONjt9GV7TdwM/JwSLkN4KUFOGRe+NcoMf1ZZm35bJrPpxQUEIKlLxREXv41RcbYHojrtjw4p1GXFO2SLPSdqNpHCUQgRFUi4kowDygjA7uF/ZjVY+QBnu2Lww4MiDQ/wH5lPDGL6m7v7flcjkb5tEWh8jVv4YwHru9NHpIeKCDCgpUwD3mi4tm5HLYpEGW7hIQIJH8zFcMbGiQ0ECyMPRrm010IoPnliEaKK9MrZb7ja9q/hti1yEhvCihhiTOuifliEScX3a4c3pCAUWWYXp35iSN4RhmhDTDEKHIi5v+ei26LGFQAU04Cz2M+lny6z+TxhIRRxg0mirDw1YGUQ6NEkaFwbEqPu8SR8Ep4hAup99copVfGpOhRGNcYnwUB8tyyAzmgeHth21BcJ1ghwD4iDcpfn10+Q3FZW4w7JFrAwkpmgQvcLaGJvZk8vSAGfoUpX13I6pjWIicxZbw6vJAFbsNbnGQgJInQYDm2GBkbeL8YnYsLWlxU9jUpYh4WOA4H+bQtfqS9L7DPKw8yYhGWTfvn4qxPpEXcYBIkfuRv5uLlhJixC/uaFLOAuzn+u87i6ZwCA7EYGFiKvC6lQmilhTIeVt4VyEe3/CyyrpjMJU1nKcwSiKWx/O3uBiq8AGhUggp+cu0CtmO/8iATljgKul8H4uCINDSLoaEpVMHueo4akNOV++sWAGguzy3ZnfXEjyeQXIkqyyYZNHdTd4tHQ6iEFwdzOprr2sD3GCIgxGVrcdKnQMC0YcSIry6yGY0QL4fBMWf57YbomoVxjfHRBsnGLSGQXVoU+wGrIzlg2RShgJR5A8IGtVHvwFf9pYqjgwpy678s9p9s5ughC8unGbIES9yPf6chEp20fRALbiKLmLVtgCEGSHkmrkfixSx/S6prCvuGlHxAXazMa07MPEfXKITqIqM9SQtjuJFj2O+QtJ0NMERMJKual+gpsVHIPl8pWEyatOSjxxQYBy+pDI276gViY8QGGGLq5jb5VEVmVX5ckFSmTdLoxLkpWWRS0aNFsgS4GpiyGOstLMPmC5KkVYhKoAnqMF8Q5u5MvHxNgBW2DSXAZr16cSSfKYwbDEeCmXz5mFh6g/G00rMLQAa5RRYQQeLwmgT1TJyGT7FrOdcS79rECWhjNBeUEdaJOpvIR7T1KWXcYCIs4fUuNtAqBUCjkOFALSzHP9F6kkHA4hLiGrfkcU+pPZqCtTGaC7rIcf3mrC/+9R9i0LIxhrus0d3ckyQnFEYr9gAUDCaiH/9OlEeFcYPBxGWnL0cZDVKuCqM1FEkqBKUngiL6oALIBhii4zIRXQcpRmhoeBE6oDVMwLYJ+eXQOPPdKnnx3x5pXBbAEEPHh5m1VXyk9bpsjOEmGLC/K5/TskzCyumV4Fp5eCMu53RQKZeDlPnYTD7/Kb96TSUp+4aEqRDx7A2RwXU1FdYZunfkZK5HQwCB+aoXwgVX9UHrx9sAQ0zcZpoct+TPPdBYRG5SHanHfPTtDegN+sK+IUVuzxTCpDy42kD82CjN9lndsYNObTaHAdN6KwzQfi+9u1wYNxiObcX54Z9ySNqvUhjXmJBhsmOULU4ymAfEGk0RDCrGQtZokF9eqfqi8EkaLS5HFrE6Io2pe8MiZkRqalChoyYZtKkzOzIdQviE9pCvBvJwdEscvaCRTFiOcVf/ZSJom/nC2N5uqWic1RH/gBcmOyOi2C7sGxK2nUnuTeTpBfVdcbOlCT6lsVtggiIiA2nQJnaQw4T55TxL0IS9OLhenBwRi6XCviY5LH2d9eRb2kNMWaQfYlRHHWPTnaUFwsC442ap4yM5VpUfjccr3ZfIQ1tKt9aiI2RsCnm5SASfEkSskh4l5GIdqOCThyUXkAKDG2KLU9mvVO1wIXaMw6NdmN5EaFmyR5CrsQytJzUtcSr7cWV4AZSGjsPryekrIrTMn1Ho2pBX8qDbIsZKG2O42IaBvX4+JW2nUrYNxLUPf9lenD7ZbGHRpr131EDhP1m7BbdzDFG81v3mMUSx5YXVCYZNDy6IJ0fylFTivXeLcCHBJAVZ1hbGNcZ5NWlTeWuTDDp2rPQKMUjvltokjU6c2znjjhzOFrsTeUJ70mrTdgWdYnWE3kNNlNzKvOE4Vpn5tJ2/pa7z2hh9jqDu2gT06qRzC8tVH/gUI3XL/56SRE5hWTM8cFp0xVPszYhitLBvSBF2cmDayq+HNEqpEGMf3YJCbJ0ry5UABhc81+k9kmNKq8FGGKbjOSC1WZu2yd1mGChWruspTYOV7hGgRboKkRkpNBfGDcZVy2QDyPLEgGxjDDd0TUM9YqiyGQaaOh6+uHlNIoZruhsuOO7NVQX88yuiVLQxhssdBfFvN2p/NS352BjNjVjdsaqfHomzJ5ucZ7NQhh05rkxSW51xvHbEAS5gHSd6y7MwrjF8JV/RfWn5lJYDuS2RNTR09KHjiep2qcVe0sKiTTJo10Ole+/yS1oM5GtHSuPEed/w8b6YzOQxaeHPxhiuq99ezsB1idAoXIOmrqdl+sSiw2ZoaLraZoYkm9NXcvCK+mbTtd1scAHr5yyeqrMYi+wVNdcohC41Qa9+yHUlZb8yT7nzkp08fLfZ8pJC6QYn91iAHX7aPZBnbXn8AwWkOnCVQfrOWw1o+6FsgCEGjiXjdCBHlF6njTBM7rrTrK+yyupfYCDRubdGTx3XCmkdAR6su67a1YTqItGl5Goemt3x8AnzVSWlQQjR//WJgmFoCTL/82lP7kGw2WSbG4/WfSeuagT9384f/QPQ0Q==",
+    "googleResult": [
+        {
+            "results": [
+                {
+                    "alternatives": [
+                        {
+                            "confidence": 0,
+                            "transcript": "안녕하세요. 인공지능 음성인식 받아쓰기 서비스 다글로 입니다. 언젠가 다시 들을 거라 생각하고 녹음한 음성파일이 그대로 쌓여 있기만 하진 않으세요? 아마 내용을 다시 확인 하려면 시간도 오래 걸리고 불편하기 때문일 겁니다. 다글로는 음성파일을 자동으로 택스트로 변환해주는 인공지능 서비스입니다. 텍스트로 쉽고 빠르게 내용을 확인할 수 있고 검색이 가능하며 변환된 텍스트를 클릭하면 즉시 해당 부분이 재생 됩니다. 편집기에서는 잘못된 부분을 쉽게 수정할 수 있고 한글뿐 아니라 영어 일본어 중국어 등 외국어도 지원해 드리고 있습니다. 다글로는 높은 정확도를 제공해드리기 위해 최신 딥러닝 기술을 사용해 분야별로 특화된 자체 음성인식 엔진을 제공해드리고 있으며 적용 분야를 점차 확대해 나갈 계획입니다. 더욱 높은 정확도를 위해서는 마이크와 녹음기 간격을 10 ㎝ 이내로 가깝게 유지하여 녹음해야 한다는 점을 꼭 기억해 주시기 바랍니다. 다글로는 고객 여러분의 삶과 업무에 보다 나은 효율과 편리함을 드리고 싶습니다. 끊임없이 발전하는 다글로를 기대해주세요. 감사합니다. ",
+                            "words": [
+                                {
+                                    "endTime": {
+                                        "nanos": 549999999,
+                                        "seconds": "2"
+                                    },
+                                    "word": "안녕하세요. "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 359999999,
+                                        "seconds": "3"
+                                    },
+                                    "startTime": {
+                                        "nanos": 549999999,
+                                        "seconds": "2"
+                                    },
+                                    "word": "인공지능 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 140000000,
+                                        "seconds": "4"
+                                    },
+                                    "startTime": {
+                                        "nanos": 390000000,
+                                        "seconds": "3"
+                                    },
+                                    "word": "음성인식 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 799999999,
+                                        "seconds": "4"
+                                    },
+                                    "startTime": {
+                                        "nanos": 139999999,
+                                        "seconds": "4"
+                                    },
+                                    "word": "받아쓰기 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 429999999,
+                                        "seconds": "5"
+                                    },
+                                    "startTime": {
+                                        "nanos": 799999999,
+                                        "seconds": "4"
+                                    },
+                                    "word": "서비스 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 700000000,
+                                        "seconds": "5"
+                                    },
+                                    "startTime": {
+                                        "nanos": 459999999,
+                                        "seconds": "5"
+                                    },
+                                    "word": "다"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 60000000,
+                                        "seconds": "6"
+                                    },
+                                    "startTime": {
+                                        "nanos": 700000000,
+                                        "seconds": "5"
+                                    },
+                                    "word": "글로 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 509999999,
+                                        "seconds": "6"
+                                    },
+                                    "startTime": {
+                                        "nanos": 59999999,
+                                        "seconds": "6"
+                                    },
+                                    "word": "입니다. "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 739999999,
+                                        "seconds": "7"
+                                    },
+                                    "startTime": {
+                                        "nanos": 139999999,
+                                        "seconds": "7"
+                                    },
+                                    "word": "언젠가 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 160000000,
+                                        "seconds": "8"
+                                    },
+                                    "startTime": {
+                                        "nanos": 740000000,
+                                        "seconds": "7"
+                                    },
+                                    "word": "다시 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 460000000,
+                                        "seconds": "8"
+                                    },
+                                    "startTime": {
+                                        "nanos": 160000000,
+                                        "seconds": "8"
+                                    },
+                                    "word": "들을 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 700000000,
+                                        "seconds": "8"
+                                    },
+                                    "startTime": {
+                                        "nanos": 460000000,
+                                        "seconds": "8"
+                                    },
+                                    "word": "거라 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 239999999,
+                                        "seconds": "9"
+                                    },
+                                    "startTime": {
+                                        "nanos": 699999999,
+                                        "seconds": "8"
+                                    },
+                                    "word": "생각하고 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 599999999,
+                                        "seconds": "9"
+                                    },
+                                    "startTime": {
+                                        "nanos": 240000000,
+                                        "seconds": "9"
+                                    },
+                                    "word": "녹음한 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 289999999,
+                                        "seconds": "10"
+                                    },
+                                    "startTime": {
+                                        "nanos": 599999999,
+                                        "seconds": "9"
+                                    },
+                                    "word": "음성파일"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 559999999,
+                                        "seconds": "10"
+                                    },
+                                    "startTime": {
+                                        "nanos": 289999999,
+                                        "seconds": "10"
+                                    },
+                                    "word": "이 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 220000000,
+                                        "seconds": "11"
+                                    },
+                                    "startTime": {
+                                        "nanos": 740000000,
+                                        "seconds": "10"
+                                    },
+                                    "word": "그대로 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 550000000,
+                                        "seconds": "11"
+                                    },
+                                    "startTime": {
+                                        "nanos": 220000000,
+                                        "seconds": "11"
+                                    },
+                                    "word": "쌓여 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 760000000,
+                                        "seconds": "11"
+                                    },
+                                    "startTime": {
+                                        "nanos": 550000000,
+                                        "seconds": "11"
+                                    },
+                                    "word": "있기"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 910000000,
+                                        "seconds": "11"
+                                    },
+                                    "startTime": {
+                                        "nanos": 759999999,
+                                        "seconds": "11"
+                                    },
+                                    "word": "만 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 330000000,
+                                        "seconds": "12"
+                                    },
+                                    "startTime": {
+                                        "nanos": 910000000,
+                                        "seconds": "11"
+                                    },
+                                    "word": "하진 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 599999999,
+                                        "seconds": "12"
+                                    },
+                                    "startTime": {
+                                        "nanos": 330000000,
+                                        "seconds": "12"
+                                    },
+                                    "word": "않으"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 990000000,
+                                        "seconds": "12"
+                                    },
+                                    "startTime": {
+                                        "nanos": 599999999,
+                                        "seconds": "12"
+                                    },
+                                    "word": "세요? "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 709999999,
+                                        "seconds": "13"
+                                    },
+                                    "startTime": {
+                                        "nanos": 439999999,
+                                        "seconds": "13"
+                                    },
+                                    "word": "아마 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 40000000,
+                                        "seconds": "14"
+                                    },
+                                    "startTime": {
+                                        "nanos": 710000000,
+                                        "seconds": "13"
+                                    },
+                                    "word": "내용을 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 309999999,
+                                        "seconds": "14"
+                                    },
+                                    "startTime": {
+                                        "nanos": 39999999,
+                                        "seconds": "14"
+                                    },
+                                    "word": "다시 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 640000000,
+                                        "seconds": "14"
+                                    },
+                                    "startTime": {
+                                        "nanos": 310000000,
+                                        "seconds": "14"
+                                    },
+                                    "word": "확인"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 150000000,
+                                        "seconds": "15"
+                                    },
+                                    "startTime": {
+                                        "nanos": 640000000,
+                                        "seconds": "14"
+                                    },
+                                    "word": "하려면 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 570000000,
+                                        "seconds": "15"
+                                    },
+                                    "startTime": {
+                                        "nanos": 179999999,
+                                        "seconds": "15"
+                                    },
+                                    "word": "시간도 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 810000000,
+                                        "seconds": "15"
+                                    },
+                                    "startTime": {
+                                        "nanos": 570000000,
+                                        "seconds": "15"
+                                    },
+                                    "word": "오래"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 379999999,
+                                        "seconds": "16"
+                                    },
+                                    "startTime": {
+                                        "nanos": 810000000,
+                                        "seconds": "15"
+                                    },
+                                    "word": "걸리고 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 950000000,
+                                        "seconds": "16"
+                                    },
+                                    "startTime": {
+                                        "nanos": 530000000,
+                                        "seconds": "16"
+                                    },
+                                    "word": "불편"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 189999999,
+                                        "seconds": "17"
+                                    },
+                                    "startTime": {
+                                        "nanos": 949999999,
+                                        "seconds": "16"
+                                    },
+                                    "word": "하기 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 550000000,
+                                        "seconds": "17"
+                                    },
+                                    "startTime": {
+                                        "nanos": 190000000,
+                                        "seconds": "17"
+                                    },
+                                    "word": "때문일"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 60000000,
+                                        "seconds": "18"
+                                    },
+                                    "startTime": {
+                                        "nanos": 550000000,
+                                        "seconds": "17"
+                                    },
+                                    "word": "겁니다. "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 839999999,
+                                        "seconds": "18"
+                                    },
+                                    "startTime": {
+                                        "nanos": 629999999,
+                                        "seconds": "18"
+                                    },
+                                    "word": "다"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 350000000,
+                                        "seconds": "19"
+                                    },
+                                    "startTime": {
+                                        "nanos": 839999999,
+                                        "seconds": "18"
+                                    },
+                                    "word": "글로는 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 219999999,
+                                        "seconds": "20"
+                                    },
+                                    "startTime": {
+                                        "nanos": 379999999,
+                                        "seconds": "19"
+                                    },
+                                    "word": "음성파일을 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 759999999,
+                                        "seconds": "20"
+                                    },
+                                    "startTime": {
+                                        "nanos": 219999999,
+                                        "seconds": "20"
+                                    },
+                                    "word": "자동으로 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 300000000,
+                                        "seconds": "21"
+                                    },
+                                    "startTime": {
+                                        "nanos": 760000000,
+                                        "seconds": "20"
+                                    },
+                                    "word": "택스트로 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 660000000,
+                                        "seconds": "21"
+                                    },
+                                    "startTime": {
+                                        "nanos": 300000000,
+                                        "seconds": "21"
+                                    },
+                                    "word": "변환"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 750000000,
+                                        "seconds": "21"
+                                    },
+                                    "startTime": {
+                                        "nanos": 660000000,
+                                        "seconds": "21"
+                                    },
+                                    "word": "해"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 140000000,
+                                        "seconds": "22"
+                                    },
+                                    "startTime": {
+                                        "nanos": 750000000,
+                                        "seconds": "21"
+                                    },
+                                    "word": "주는 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 10000000,
+                                        "seconds": "23"
+                                    },
+                                    "startTime": {
+                                        "nanos": 320000000,
+                                        "seconds": "22"
+                                    },
+                                    "word": "인공지능 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 400000000,
+                                        "seconds": "23"
+                                    },
+                                    "startTime": {
+                                        "nanos": 10000000,
+                                        "seconds": "23"
+                                    },
+                                    "word": "서비스 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 729999999,
+                                        "seconds": "23"
+                                    },
+                                    "startTime": {
+                                        "nanos": 399999999,
+                                        "seconds": "23"
+                                    },
+                                    "word": "입니다. "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 870000000,
+                                        "seconds": "24"
+                                    },
+                                    "startTime": {
+                                        "nanos": 420000000,
+                                        "seconds": "24"
+                                    },
+                                    "word": "텍스트로 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 109999999,
+                                        "seconds": "25"
+                                    },
+                                    "startTime": {
+                                        "nanos": 870000000,
+                                        "seconds": "24"
+                                    },
+                                    "word": "쉽"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 320000000,
+                                        "seconds": "25"
+                                    },
+                                    "startTime": {
+                                        "nanos": 109999999,
+                                        "seconds": "25"
+                                    },
+                                    "word": "고 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 800000000,
+                                        "seconds": "25"
+                                    },
+                                    "startTime": {
+                                        "nanos": 320000000,
+                                        "seconds": "25"
+                                    },
+                                    "word": "빠르게 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 129999999,
+                                        "seconds": "26"
+                                    },
+                                    "startTime": {
+                                        "nanos": 800000000,
+                                        "seconds": "25"
+                                    },
+                                    "word": "내용을 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 519999999,
+                                        "seconds": "26"
+                                    },
+                                    "startTime": {
+                                        "nanos": 129999999,
+                                        "seconds": "26"
+                                    },
+                                    "word": "확인할 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 640000000,
+                                        "seconds": "26"
+                                    },
+                                    "startTime": {
+                                        "nanos": 519999999,
+                                        "seconds": "26"
+                                    },
+                                    "word": "수 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 179999999,
+                                        "seconds": "27"
+                                    },
+                                    "startTime": {
+                                        "nanos": 640000000,
+                                        "seconds": "26"
+                                    },
+                                    "word": "있고 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 839999999,
+                                        "seconds": "27"
+                                    },
+                                    "startTime": {
+                                        "nanos": 329999999,
+                                        "seconds": "27"
+                                    },
+                                    "word": "검색"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 929999999,
+                                        "seconds": "27"
+                                    },
+                                    "startTime": {
+                                        "nanos": 839999999,
+                                        "seconds": "27"
+                                    },
+                                    "word": "이 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 739999999,
+                                        "seconds": "28"
+                                    },
+                                    "startTime": {
+                                        "nanos": 929999999,
+                                        "seconds": "27"
+                                    },
+                                    "word": "가능하며 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 610000000,
+                                        "seconds": "29"
+                                    },
+                                    "startTime": {
+                                        "nanos": 920000000,
+                                        "seconds": "28"
+                                    },
+                                    "word": "변환된 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 120000000,
+                                        "seconds": "30"
+                                    },
+                                    "startTime": {
+                                        "nanos": 609999999,
+                                        "seconds": "29"
+                                    },
+                                    "word": "텍스트를 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 390000000,
+                                        "seconds": "30"
+                                    },
+                                    "startTime": {
+                                        "nanos": 120000000,
+                                        "seconds": "30"
+                                    },
+                                    "word": "클릭"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 780000000,
+                                        "seconds": "30"
+                                    },
+                                    "startTime": {
+                                        "nanos": 390000000,
+                                        "seconds": "30"
+                                    },
+                                    "word": "하면 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 319999999,
+                                        "seconds": "31"
+                                    },
+                                    "startTime": {
+                                        "nanos": 989999999,
+                                        "seconds": "30"
+                                    },
+                                    "word": "즉시 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 679999999,
+                                        "seconds": "31"
+                                    },
+                                    "startTime": {
+                                        "nanos": 320000000,
+                                        "seconds": "31"
+                                    },
+                                    "word": "해당 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 130000000,
+                                        "seconds": "32"
+                                    },
+                                    "startTime": {
+                                        "nanos": 679999999,
+                                        "seconds": "31"
+                                    },
+                                    "word": "부분이 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 520000000,
+                                        "seconds": "32"
+                                    },
+                                    "startTime": {
+                                        "nanos": 130000000,
+                                        "seconds": "32"
+                                    },
+                                    "word": "재생"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 0,
+                                        "seconds": "33"
+                                    },
+                                    "startTime": {
+                                        "nanos": 520000000,
+                                        "seconds": "32"
+                                    },
+                                    "word": "됩니다. "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 929999999,
+                                        "seconds": "33"
+                                    },
+                                    "startTime": {
+                                        "nanos": 600000000,
+                                        "seconds": "33"
+                                    },
+                                    "word": "편집 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 409999999,
+                                        "seconds": "34"
+                                    },
+                                    "startTime": {
+                                        "nanos": 929999999,
+                                        "seconds": "33"
+                                    },
+                                    "word": "기에서는 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 949999999,
+                                        "seconds": "34"
+                                    },
+                                    "startTime": {
+                                        "nanos": 409999999,
+                                        "seconds": "34"
+                                    },
+                                    "word": "잘못된 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 310000000,
+                                        "seconds": "35"
+                                    },
+                                    "startTime": {
+                                        "nanos": 950000000,
+                                        "seconds": "34"
+                                    },
+                                    "word": "부분을 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 700000000,
+                                        "seconds": "35"
+                                    },
+                                    "startTime": {
+                                        "nanos": 310000000,
+                                        "seconds": "35"
+                                    },
+                                    "word": "쉽게 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 0,
+                                        "seconds": "36"
+                                    },
+                                    "startTime": {
+                                        "nanos": 700000000,
+                                        "seconds": "35"
+                                    },
+                                    "word": "수정"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 119999999,
+                                        "seconds": "36"
+                                    },
+                                    "startTime": {
+                                        "nanos": 0,
+                                        "seconds": "36"
+                                    },
+                                    "word": "할 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 239999999,
+                                        "seconds": "36"
+                                    },
+                                    "startTime": {
+                                        "nanos": 119999999,
+                                        "seconds": "36"
+                                    },
+                                    "word": "수 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 660000000,
+                                        "seconds": "36"
+                                    },
+                                    "startTime": {
+                                        "nanos": 240000000,
+                                        "seconds": "36"
+                                    },
+                                    "word": "있고 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 259999999,
+                                        "seconds": "37"
+                                    },
+                                    "startTime": {
+                                        "nanos": 899999999,
+                                        "seconds": "36"
+                                    },
+                                    "word": "한글"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 439999999,
+                                        "seconds": "37"
+                                    },
+                                    "startTime": {
+                                        "nanos": 259999999,
+                                        "seconds": "37"
+                                    },
+                                    "word": "뿐 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 890000000,
+                                        "seconds": "37"
+                                    },
+                                    "startTime": {
+                                        "nanos": 439999999,
+                                        "seconds": "37"
+                                    },
+                                    "word": "아니라 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 640000000,
+                                        "seconds": "38"
+                                    },
+                                    "startTime": {
+                                        "nanos": 100000000,
+                                        "seconds": "38"
+                                    },
+                                    "word": "영어 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 270000000,
+                                        "seconds": "39"
+                                    },
+                                    "startTime": {
+                                        "nanos": 640000000,
+                                        "seconds": "38"
+                                    },
+                                    "word": "일본어 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 780000000,
+                                        "seconds": "39"
+                                    },
+                                    "startTime": {
+                                        "nanos": 270000000,
+                                        "seconds": "39"
+                                    },
+                                    "word": "중국어 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 20000000,
+                                        "seconds": "40"
+                                    },
+                                    "startTime": {
+                                        "nanos": 780000000,
+                                        "seconds": "39"
+                                    },
+                                    "word": "등 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 679999999,
+                                        "seconds": "40"
+                                    },
+                                    "startTime": {
+                                        "nanos": 259999999,
+                                        "seconds": "40"
+                                    },
+                                    "word": "외국어"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 859999999,
+                                        "seconds": "40"
+                                    },
+                                    "startTime": {
+                                        "nanos": 679999999,
+                                        "seconds": "40"
+                                    },
+                                    "word": "도 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 280000000,
+                                        "seconds": "41"
+                                    },
+                                    "startTime": {
+                                        "nanos": 859999999,
+                                        "seconds": "40"
+                                    },
+                                    "word": "지원해"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 579999999,
+                                        "seconds": "41"
+                                    },
+                                    "startTime": {
+                                        "nanos": 280000000,
+                                        "seconds": "41"
+                                    },
+                                    "word": "드리고 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 89999999,
+                                        "seconds": "42"
+                                    },
+                                    "startTime": {
+                                        "nanos": 579999999,
+                                        "seconds": "41"
+                                    },
+                                    "word": "있습니다. "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 350000000,
+                                        "seconds": "43"
+                                    },
+                                    "startTime": {
+                                        "nanos": 200000000,
+                                        "seconds": "43"
+                                    },
+                                    "word": "다"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 770000000,
+                                        "seconds": "43"
+                                    },
+                                    "startTime": {
+                                        "nanos": 350000000,
+                                        "seconds": "43"
+                                    },
+                                    "word": "글로는 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 100000000,
+                                        "seconds": "44"
+                                    },
+                                    "startTime": {
+                                        "nanos": 770000000,
+                                        "seconds": "43"
+                                    },
+                                    "word": "높은 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 670000000,
+                                        "seconds": "44"
+                                    },
+                                    "startTime": {
+                                        "nanos": 100000000,
+                                        "seconds": "44"
+                                    },
+                                    "word": "정확도를 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 30000000,
+                                        "seconds": "45"
+                                    },
+                                    "startTime": {
+                                        "nanos": 670000000,
+                                        "seconds": "44"
+                                    },
+                                    "word": "제공"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 300000000,
+                                        "seconds": "45"
+                                    },
+                                    "startTime": {
+                                        "nanos": 30000000,
+                                        "seconds": "45"
+                                    },
+                                    "word": "해드리"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 419999999,
+                                        "seconds": "45"
+                                    },
+                                    "startTime": {
+                                        "nanos": 299999999,
+                                        "seconds": "45"
+                                    },
+                                    "word": "기 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 750000000,
+                                        "seconds": "45"
+                                    },
+                                    "startTime": {
+                                        "nanos": 420000000,
+                                        "seconds": "45"
+                                    },
+                                    "word": "위해 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 350000000,
+                                        "seconds": "46"
+                                    },
+                                    "startTime": {
+                                        "nanos": 780000000,
+                                        "seconds": "45"
+                                    },
+                                    "word": "최신의 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 649999999,
+                                        "seconds": "46"
+                                    },
+                                    "startTime": {
+                                        "nanos": 350000000,
+                                        "seconds": "46"
+                                    },
+                                    "word": "딥"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 70000000,
+                                        "seconds": "47"
+                                    },
+                                    "startTime": {
+                                        "nanos": 649999999,
+                                        "seconds": "46"
+                                    },
+                                    "word": "러닝 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 460000000,
+                                        "seconds": "47"
+                                    },
+                                    "startTime": {
+                                        "nanos": 70000000,
+                                        "seconds": "47"
+                                    },
+                                    "word": "기술을 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 969999999,
+                                        "seconds": "47"
+                                    },
+                                    "startTime": {
+                                        "nanos": 460000000,
+                                        "seconds": "47"
+                                    },
+                                    "word": "사용해 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 780000000,
+                                        "seconds": "48"
+                                    },
+                                    "startTime": {
+                                        "nanos": 210000000,
+                                        "seconds": "48"
+                                    },
+                                    "word": "분야별로 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 350000000,
+                                        "seconds": "49"
+                                    },
+                                    "startTime": {
+                                        "nanos": 780000000,
+                                        "seconds": "48"
+                                    },
+                                    "word": "특화된 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 70000000,
+                                        "seconds": "50"
+                                    },
+                                    "startTime": {
+                                        "nanos": 560000000,
+                                        "seconds": "49"
+                                    },
+                                    "word": "자체 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 789999999,
+                                        "seconds": "50"
+                                    },
+                                    "startTime": {
+                                        "nanos": 70000000,
+                                        "seconds": "50"
+                                    },
+                                    "word": "음성인식 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 390000000,
+                                        "seconds": "51"
+                                    },
+                                    "startTime": {
+                                        "nanos": 789999999,
+                                        "seconds": "50"
+                                    },
+                                    "word": "엔진을 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 750000000,
+                                        "seconds": "51"
+                                    },
+                                    "startTime": {
+                                        "nanos": 390000000,
+                                        "seconds": "51"
+                                    },
+                                    "word": "제공"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 840000000,
+                                        "seconds": "51"
+                                    },
+                                    "startTime": {
+                                        "nanos": 750000000,
+                                        "seconds": "51"
+                                    },
+                                    "word": "해"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 20000000,
+                                        "seconds": "52"
+                                    },
+                                    "startTime": {
+                                        "nanos": 840000000,
+                                        "seconds": "51"
+                                    },
+                                    "word": "드리"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 110000000,
+                                        "seconds": "52"
+                                    },
+                                    "startTime": {
+                                        "nanos": 20000000,
+                                        "seconds": "52"
+                                    },
+                                    "word": "고 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 619999999,
+                                        "seconds": "52"
+                                    },
+                                    "startTime": {
+                                        "nanos": 109999999,
+                                        "seconds": "52"
+                                    },
+                                    "word": "있으며 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 370000000,
+                                        "seconds": "53"
+                                    },
+                                    "startTime": {
+                                        "nanos": 950000000,
+                                        "seconds": "52"
+                                    },
+                                    "word": "적용 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 669999999,
+                                        "seconds": "53"
+                                    },
+                                    "startTime": {
+                                        "nanos": 369999999,
+                                        "seconds": "53"
+                                    },
+                                    "word": "분야를 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 179999999,
+                                        "seconds": "54"
+                                    },
+                                    "startTime": {
+                                        "nanos": 670000000,
+                                        "seconds": "53"
+                                    },
+                                    "word": "점차 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 600000000,
+                                        "seconds": "54"
+                                    },
+                                    "startTime": {
+                                        "nanos": 179999999,
+                                        "seconds": "54"
+                                    },
+                                    "word": "확대해 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 929999999,
+                                        "seconds": "54"
+                                    },
+                                    "startTime": {
+                                        "nanos": 600000000,
+                                        "seconds": "54"
+                                    },
+                                    "word": "나갈 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 649999999,
+                                        "seconds": "55"
+                                    },
+                                    "startTime": {
+                                        "nanos": 929999999,
+                                        "seconds": "54"
+                                    },
+                                    "word": "계획입니다. "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 850000000,
+                                        "seconds": "56"
+                                    },
+                                    "startTime": {
+                                        "nanos": 609999999,
+                                        "seconds": "56"
+                                    },
+                                    "word": "더욱 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 179999999,
+                                        "seconds": "57"
+                                    },
+                                    "startTime": {
+                                        "nanos": 850000000,
+                                        "seconds": "56"
+                                    },
+                                    "word": "높은 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 659999999,
+                                        "seconds": "57"
+                                    },
+                                    "startTime": {
+                                        "nanos": 179999999,
+                                        "seconds": "57"
+                                    },
+                                    "word": "정확도를 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 259999999,
+                                        "seconds": "58"
+                                    },
+                                    "startTime": {
+                                        "nanos": 659999999,
+                                        "seconds": "57"
+                                    },
+                                    "word": "위해서는 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 100000000,
+                                        "seconds": "59"
+                                    },
+                                    "startTime": {
+                                        "nanos": 469999999,
+                                        "seconds": "58"
+                                    },
+                                    "word": "마이크와 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 579999999,
+                                        "seconds": "59"
+                                    },
+                                    "startTime": {
+                                        "nanos": 100000000,
+                                        "seconds": "59"
+                                    },
+                                    "word": "녹음기 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 239999999,
+                                        "seconds": "60"
+                                    },
+                                    "startTime": {
+                                        "nanos": 579999999,
+                                        "seconds": "59"
+                                    },
+                                    "word": "간격을 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 630000000,
+                                        "seconds": "60"
+                                    },
+                                    "startTime": {
+                                        "nanos": 390000000,
+                                        "seconds": "60"
+                                    },
+                                    "word": "10 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 170000000,
+                                        "seconds": "61"
+                                    },
+                                    "startTime": {
+                                        "nanos": 630000000,
+                                        "seconds": "60"
+                                    },
+                                    "word": "㎝ "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 560000000,
+                                        "seconds": "61"
+                                    },
+                                    "startTime": {
+                                        "nanos": 170000000,
+                                        "seconds": "61"
+                                    },
+                                    "word": "이내로 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 10000000,
+                                        "seconds": "62"
+                                    },
+                                    "startTime": {
+                                        "nanos": 560000000,
+                                        "seconds": "61"
+                                    },
+                                    "word": "가깝"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 159999999,
+                                        "seconds": "62"
+                                    },
+                                    "startTime": {
+                                        "nanos": 9999999,
+                                        "seconds": "62"
+                                    },
+                                    "word": "게 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 429999999,
+                                        "seconds": "62"
+                                    },
+                                    "startTime": {
+                                        "nanos": 159999999,
+                                        "seconds": "62"
+                                    },
+                                    "word": "유지"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 670000000,
+                                        "seconds": "62"
+                                    },
+                                    "startTime": {
+                                        "nanos": 429999999,
+                                        "seconds": "62"
+                                    },
+                                    "word": "하여 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 30000000,
+                                        "seconds": "63"
+                                    },
+                                    "startTime": {
+                                        "nanos": 700000000,
+                                        "seconds": "62"
+                                    },
+                                    "word": "녹음"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 179999999,
+                                        "seconds": "63"
+                                    },
+                                    "startTime": {
+                                        "nanos": 30000000,
+                                        "seconds": "63"
+                                    },
+                                    "word": "해야 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 479999999,
+                                        "seconds": "63"
+                                    },
+                                    "startTime": {
+                                        "nanos": 179999999,
+                                        "seconds": "63"
+                                    },
+                                    "word": "한다는 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 959999999,
+                                        "seconds": "63"
+                                    },
+                                    "startTime": {
+                                        "nanos": 479999999,
+                                        "seconds": "63"
+                                    },
+                                    "word": "점을 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 379999999,
+                                        "seconds": "64"
+                                    },
+                                    "startTime": {
+                                        "nanos": 109999999,
+                                        "seconds": "64"
+                                    },
+                                    "word": "꼭 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 769999999,
+                                        "seconds": "64"
+                                    },
+                                    "startTime": {
+                                        "nanos": 379999999,
+                                        "seconds": "64"
+                                    },
+                                    "word": "기억해"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 69999999,
+                                        "seconds": "65"
+                                    },
+                                    "startTime": {
+                                        "nanos": 769999999,
+                                        "seconds": "64"
+                                    },
+                                    "word": "주시기 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 549999999,
+                                        "seconds": "65"
+                                    },
+                                    "startTime": {
+                                        "nanos": 69999999,
+                                        "seconds": "65"
+                                    },
+                                    "word": "바랍니다. "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 750000000,
+                                        "seconds": "66"
+                                    },
+                                    "startTime": {
+                                        "nanos": 599999999,
+                                        "seconds": "66"
+                                    },
+                                    "word": "다"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 79999999,
+                                        "seconds": "67"
+                                    },
+                                    "startTime": {
+                                        "nanos": 750000000,
+                                        "seconds": "66"
+                                    },
+                                    "word": "글로는 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 469999999,
+                                        "seconds": "67"
+                                    },
+                                    "startTime": {
+                                        "nanos": 79999999,
+                                        "seconds": "67"
+                                    },
+                                    "word": "고객 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 799999999,
+                                        "seconds": "67"
+                                    },
+                                    "startTime": {
+                                        "nanos": 469999999,
+                                        "seconds": "67"
+                                    },
+                                    "word": "여러분의 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 219999999,
+                                        "seconds": "68"
+                                    },
+                                    "startTime": {
+                                        "nanos": 799999999,
+                                        "seconds": "67"
+                                    },
+                                    "word": "삶과 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 549999999,
+                                        "seconds": "68"
+                                    },
+                                    "startTime": {
+                                        "nanos": 219999999,
+                                        "seconds": "68"
+                                    },
+                                    "word": "업무에 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 909999999,
+                                        "seconds": "68"
+                                    },
+                                    "startTime": {
+                                        "nanos": 549999999,
+                                        "seconds": "68"
+                                    },
+                                    "word": "보다 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 329999999,
+                                        "seconds": "69"
+                                    },
+                                    "startTime": {
+                                        "nanos": 909999999,
+                                        "seconds": "68"
+                                    },
+                                    "word": "나은 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 840000000,
+                                        "seconds": "69"
+                                    },
+                                    "startTime": {
+                                        "nanos": 329999999,
+                                        "seconds": "69"
+                                    },
+                                    "word": "효율과 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 380000000,
+                                        "seconds": "70"
+                                    },
+                                    "startTime": {
+                                        "nanos": 840000000,
+                                        "seconds": "69"
+                                    },
+                                    "word": "편리함을 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 679999999,
+                                        "seconds": "70"
+                                    },
+                                    "startTime": {
+                                        "nanos": 379999999,
+                                        "seconds": "70"
+                                    },
+                                    "word": "드리고 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 340000000,
+                                        "seconds": "71"
+                                    },
+                                    "startTime": {
+                                        "nanos": 680000000,
+                                        "seconds": "70"
+                                    },
+                                    "word": "싶습니다. "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 239999999,
+                                        "seconds": "72"
+                                    },
+                                    "startTime": {
+                                        "nanos": 849999999,
+                                        "seconds": "71"
+                                    },
+                                    "word": "끊임없"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 359999999,
+                                        "seconds": "72"
+                                    },
+                                    "startTime": {
+                                        "nanos": 239999999,
+                                        "seconds": "72"
+                                    },
+                                    "word": "이 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 719999999,
+                                        "seconds": "72"
+                                    },
+                                    "startTime": {
+                                        "nanos": 359999999,
+                                        "seconds": "72"
+                                    },
+                                    "word": "발전"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 989999999,
+                                        "seconds": "72"
+                                    },
+                                    "startTime": {
+                                        "nanos": 719999999,
+                                        "seconds": "72"
+                                    },
+                                    "word": "하는 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 379999999,
+                                        "seconds": "73"
+                                    },
+                                    "startTime": {
+                                        "nanos": 989999999,
+                                        "seconds": "72"
+                                    },
+                                    "word": "다글"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 920000000,
+                                        "seconds": "73"
+                                    },
+                                    "startTime": {
+                                        "nanos": 379999999,
+                                        "seconds": "73"
+                                    },
+                                    "word": "로를 "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 340000000,
+                                        "seconds": "74"
+                                    },
+                                    "startTime": {
+                                        "nanos": 10000000,
+                                        "seconds": "74"
+                                    },
+                                    "word": "기대"
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 880000000,
+                                        "seconds": "74"
+                                    },
+                                    "startTime": {
+                                        "nanos": 340000000,
+                                        "seconds": "74"
+                                    },
+                                    "word": "해주세요. "
+                                },
+                                {
+                                    "endTime": {
+                                        "nanos": 79999999,
+                                        "seconds": "76"
+                                    },
+                                    "startTime": {
+                                        "nanos": 359999999,
+                                        "seconds": "75"
+                                    },
+                                    "word": "감사합니다. "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "lastEdited": "2019-04-09T09:18:48.334Z",
+    "wordProcessed": true
+}
