@@ -21,6 +21,7 @@ import { $getRoot, $getSelection, EditorState } from "lexical";
 import MyLoaderPlugin from "./plugins/MyLoaderPlugin";
 import React from "react";
 import { KaraokeNode } from "./decorator-nodes/KaraokeNode";
+import KaraokePlugin from "./plugins/KaraokePlugin";
 
 function Placeholder() {
     return <div className="editor-placeholder">Enter some rich text...</div>;
@@ -62,6 +63,7 @@ function Editor() {
     return (
         <LexicalComposer initialConfig={editorConfig}>
             <MyLoaderPlugin />
+            <KaraokePlugin />
             <div className="editor-container">
                 <ToolbarPlugin />
                 <div className="editor-inner">

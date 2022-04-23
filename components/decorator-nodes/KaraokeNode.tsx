@@ -1,25 +1,19 @@
 import { NodeKey, EditorConfig, LexicalNode, TextNode } from "lexical";
 import React from "react";
 
+interface SecondMeta {
+  nanos: number;
+  seconds: string;
+};
 interface Karaoke {
   word: string;
-  endTime: {
-    nanos: number;
-    seconds: string;
-  }
+  startTime?: SecondMeta;
+  endTime: SecondMeta;
 }
-
-interface KaraokeProps {
-  text: string;
-  time: number;
-}
-
-const KaraokeComp = React.memo(function Comp({ text, time } : KaraokeProps) {
-  return <span style={{color: 'red'}}>{text}</span>
-})
 
 export class KaraokeNode extends TextNode {
   private _item: Karaoke;
+  private _sec: number = 0;
   static getType(): string {
     return 'karaoke';
   }
@@ -32,14 +26,25 @@ export class KaraokeNode extends TextNode {
     super(item.word, key);
     this._item = item;
   }
-  
-  // decorate(editor: LexicalEditor) {
-  //   return <KaraokeComp text={this._item.word} time={Number(this._item.endTime.seconds)} />; 
-  // }
+
+  createDOM<EditorContext extends Record<string, any>>(config: EditorConfig<EditorContext>) {
+    const span = document.createElement('span');
+    span.textContent = this._item.word;
+    span.setAttribute('t', this._item?.startTime?.seconds ?? '0');
+    return span
+  }
 
   updateDOM<EditorContext extends Record<string, any>>(prevNode: TextNode, dom: HTMLElement, config: EditorConfig<EditorContext>): boolean {
     this._item.word = prevNode.getTextContent();
+    // console.log('update', dom)
+    if (this._sec > Number(this._item?.startTime?.seconds ?? '0')) {
+      dom.style.color = 'blue';
+    }
     return super.updateDOM(prevNode, dom, config);
+  }
+
+  updateTextColor(sec: number) {
+    this._sec = sec;
   }
 }
 
