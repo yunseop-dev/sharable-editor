@@ -11,7 +11,7 @@ function KaraokePlugin() {
     const [sec, setSec] = useState(0);
     const [timer, setTimer] = useState<NodeJS.Timer | null>(null);
 
-    const foo = useCallback(() => {
+    const onToggleTimer = useCallback(() => {
         if (!timer) {
             const timer = setInterval(() => {
                 setSec(val => val + 1)
@@ -35,7 +35,7 @@ function KaraokePlugin() {
             seconds: sec % 60,
             minutes: Math.floor(sec / 60)
         }).format('mm:ss')}초
-        <button onClick={foo}>{!timer ? '시작' : '정지'}</button>;
+        <button onClick={onToggleTimer}>{!timer ? '시작' : '정지'}</button>;
     </>
 }
 
