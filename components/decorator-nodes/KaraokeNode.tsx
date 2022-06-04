@@ -14,6 +14,7 @@ interface Karaoke {
 export class KaraokeNode extends TextNode {
   private _item: Karaoke;
   private _sec: number = 0;
+
   static getType(): string {
     return 'karaoke';
   }
@@ -36,15 +37,18 @@ export class KaraokeNode extends TextNode {
 
   updateDOM<EditorContext extends Record<string, any>>(prevNode: TextNode, dom: HTMLElement, config: EditorConfig<EditorContext>): boolean {
     this._item.word = prevNode.getTextContent();
-    // console.log('update', dom)
     if (this._sec > Number(this._item?.startTime?.seconds ?? '0')) {
-      dom.style.color = 'blue';
+      dom.style.color = 'red';
     }
     return super.updateDOM(prevNode, dom, config);
   }
 
   updateTextColor(sec: number) {
     this._sec = sec;
+  }
+
+  get item() {
+    return this._item;
   }
 }
 
