@@ -563,7 +563,7 @@ export default function ToolbarPlugin() {
         className="toolbar-item spaced"
         aria-label="Undo"
       >
-        <i className="format undo" />
+        undo
       </button>
       <button
         disabled={!canRedo}
@@ -573,7 +573,7 @@ export default function ToolbarPlugin() {
         className="toolbar-item"
         aria-label="Redo"
       >
-        <i className="format redo" />
+        redo
       </button>
       <Divider />
       {supportedBlockTypes.has(blockType) && (
@@ -621,7 +621,7 @@ export default function ToolbarPlugin() {
             className={"toolbar-item spaced " + (isBold ? "active" : "")}
             aria-label="Format Bold"
           >
-            <i className="format bold" />
+            Bold
           </button>
           <button
             onClick={() => {
@@ -630,7 +630,7 @@ export default function ToolbarPlugin() {
             className={"toolbar-item spaced " + (isItalic ? "active" : "")}
             aria-label="Format Italics"
           >
-            <i className="format italic" />
+            Italics
           </button>
           <button
             onClick={() => {
@@ -639,7 +639,7 @@ export default function ToolbarPlugin() {
             className={"toolbar-item spaced " + (isUnderline ? "active" : "")}
             aria-label="Format Underline"
           >
-            <i className="format underline" />
+            Underline
           </button>
           <button
             onClick={() => {
@@ -650,7 +650,7 @@ export default function ToolbarPlugin() {
             }
             aria-label="Format Strikethrough"
           >
-            <i className="format strikethrough" />
+            Strikethrough
           </button>
           <button
             onClick={() => {
@@ -659,14 +659,14 @@ export default function ToolbarPlugin() {
             className={"toolbar-item spaced " + (isCode ? "active" : "")}
             aria-label="Insert Code"
           >
-            <i className="format code" />
+            Code
           </button>
           <button
             onClick={insertLink}
             className={"toolbar-item spaced " + (isLink ? "active" : "")}
             aria-label="Insert Link"
           >
-            <i className="format link" />
+            Link
           </button>
           {isLink &&
             createPortal(<FloatingLinkEditor editor={editor} />, document.body)}
@@ -678,7 +678,7 @@ export default function ToolbarPlugin() {
             className="toolbar-item spaced"
             aria-label="Left Align"
           >
-            <i className="format left-align" />
+            Left
           </button>
           <button
             onClick={() => {
@@ -687,7 +687,7 @@ export default function ToolbarPlugin() {
             className="toolbar-item spaced"
             aria-label="Center Align"
           >
-            <i className="format center-align" />
+            Center
           </button>
           <button
             onClick={() => {
@@ -696,7 +696,7 @@ export default function ToolbarPlugin() {
             className="toolbar-item spaced"
             aria-label="Right Align"
           >
-            <i className="format right-align" />
+            Right
           </button>
           <button
             onClick={() => {
@@ -705,8 +705,8 @@ export default function ToolbarPlugin() {
             className="toolbar-item"
             aria-label="Justify Align"
           >
-            <i className="format justify-align" />
-          </button>{" "}
+            Justify
+          </button>
         </>
       )}
     </div>
