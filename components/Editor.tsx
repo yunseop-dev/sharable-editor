@@ -1,19 +1,19 @@
 import ExampleTheme from "./themes/ExampleTheme";
-import LexicalComposer from "@lexical/react/LexicalComposer";
-import RichTextPlugin from "@lexical/react/LexicalRichTextPlugin";
-import ContentEditable from "@lexical/react/LexicalContentEditable";
+import { LexicalComposer } from "@lexical/react/LexicalComposer";
+import { RichTextPlugin } from "@lexical/react/LexicalRichTextPlugin";
+import { ContentEditable } from "@lexical/react/LexicalContentEditable";
 import { HistoryPlugin } from "@lexical/react/LexicalHistoryPlugin";
-import AutoFocusPlugin from "@lexical/react/LexicalAutoFocusPlugin";
+import { AutoFocusPlugin } from "@lexical/react/LexicalAutoFocusPlugin";
 import TreeViewPlugin from "./plugins/TreeViewPlugin";
 import ToolbarPlugin from "./plugins/ToolbarPlugin";
-import LexicalOnChangePlugin from '@lexical/react/LexicalOnChangePlugin';
+import { OnChangePlugin } from '@lexical/react/LexicalOnChangePlugin';
 import { HeadingNode, QuoteNode } from "@lexical/rich-text";
 import { TableCellNode, TableNode, TableRowNode } from "@lexical/table";
 import { ListItemNode, ListNode } from "@lexical/list";
 import { AutoLinkNode, LinkNode } from "@lexical/link";
-import LinkPlugin from "@lexical/react/LexicalLinkPlugin";
-import ListPlugin from "@lexical/react/LexicalListPlugin";
-import LexicalMarkdownShortcutPlugin from "@lexical/react/LexicalMarkdownShortcutPlugin";
+import { LinkPlugin } from "@lexical/react/LexicalLinkPlugin";
+import { ListPlugin } from "@lexical/react/LexicalListPlugin";
+import { MarkdownShortcutPlugin } from "@lexical/react/LexicalMarkdownShortcutPlugin";
 
 import ListMaxIndentLevelPlugin from "./plugins/ListMaxIndentLevelPlugin";
 import AutoLinkPlugin from "./plugins/AutoLinkPlugin";
@@ -63,15 +63,15 @@ function Editor() {
     return (
         <LexicalComposer initialConfig={editorConfig}>
             <MyLoaderPlugin />
-            <KaraokePlugin />
             <div className="editor-container">
                 <ToolbarPlugin />
+                <KaraokePlugin />
                 <div className="editor-inner">
                     <RichTextPlugin
                         contentEditable={<ContentEditable className="editor-input" />}
                         placeholder={<Placeholder />}
                     />
-                    <LexicalOnChangePlugin onChange={onChange} />
+                    <OnChangePlugin onChange={onChange} />
                     <HistoryPlugin />
                     <TreeViewPlugin />
                     <AutoFocusPlugin />
@@ -79,7 +79,7 @@ function Editor() {
                     <LinkPlugin />
                     <AutoLinkPlugin />
                     <ListMaxIndentLevelPlugin maxDepth={7} />
-                    <LexicalMarkdownShortcutPlugin />
+                    <MarkdownShortcutPlugin />
                 </div>
             </div>
         </LexicalComposer>
