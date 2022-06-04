@@ -1,41 +1,34 @@
 import { useLexicalComposerContext } from "@lexical/react/LexicalComposerContext";
 import dayjs from "dayjs";
 import duration from "dayjs/plugin/duration";
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { KaraokeNode } from "../decorator-nodes/KaraokeNode";
+import { useTimer } from 'use-timer';
 
 dayjs.extend(duration)
 
 function KaraokePlugin() {
     const [editor] = useLexicalComposerContext();
-    const [sec, setSec] = useState(0);
-    const [timer, setTimer] = useState<NodeJS.Timer | null>(null);
-
-    const onToggleTimer = useCallback(() => {
-        if (!timer) {
-            const timer = setInterval(() => {
-                setSec(val => val + 1)
-            }, 1000);
-            setTimer(timer);
-        } else {
-            clearInterval(timer)
-            setTimer(null)
-        }
-    }, [timer])
+    const { time, start, pause, reset, status } = useTimer({
+        endTime: 76
+    });
+    const formattedTime = useMemo(() => dayjs.duration({
+        seconds: time % 60,
+        minutes: Math.floor(time / 60)
+    }).format('mm:ss'), [time]);
 
     useEffect(() => {
         const removeTransform = editor.registerNodeTransform(KaraokeNode, (textNode: KaraokeNode) => {
-            textNode.updateTextColor(sec)
+            textNode.updateTextColor(time)
         });
         return removeTransform;
-    }, [sec, editor])
+    }, [time, editor])
 
     return <>
-        시간: {dayjs.duration({
-            seconds: sec % 60,
-            minutes: Math.floor(sec / 60)
-        }).format('mm:ss')}초
-        <button onClick={onToggleTimer}>{!timer ? '시작' : '정지'}</button>;
+        시간: {formattedTime}초
+        <button onClick={start} disabled={status === 'RUNNING'}>Start</button>
+        <button onClick={pause} disabled={status === 'PAUSED'}>Pause</button>
+        <button onClick={reset}>Reset</button>
     </>
 }
 
