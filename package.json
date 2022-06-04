@@ -9,21 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@lexical/react": "^0.2.4",
-    "axios": "^0.26.1",
-    "dayjs": "^1.11.1",
-    "lexical": "^0.2.4",
-    "next": "12.1.5",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-query": "^3.35.0"
+    "@lexical/react": "^0.3.1",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.2",
+    "lexical": "^0.3.1",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-query": "^3.39.0",
+    "use-timer": "^2.0.1"
   },
   "devDependencies": {
-    "@types/node": "17.0.24",
-    "@types/react": "18.0.5",
-    "@types/react-dom": "18.0.1",
-    "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5",
-    "typescript": "4.6.3"
+    "@types/node": "17.0.39",
+    "@types/react": "18.0.11",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "4.7.3"
   }
 }
