@@ -22,7 +22,7 @@ export type SerializedKaraokeNode = Spread<
 
 export class KaraokeNode extends TextNode {
   private _item: Karaoke;
-  private _sec: number = 0;
+  private _time: number = 0;
 
   static getType(): string {
     return 'karaoke';
@@ -38,16 +38,14 @@ export class KaraokeNode extends TextNode {
   }
 
   createDOM(config: EditorConfig) {
-    console.log('createDOM');
     const element = super.createDOM(config);
     element.setAttribute('t', this._item?.startTime?.seconds ?? '0');
     return element;
   }
 
   updateDOM(prevNode: TextNode, dom: HTMLElement, config: EditorConfig): boolean {
-    console.log('updateDOM', prevNode, dom);
     this._item.word = prevNode.getTextContent();
-    if (this._sec > Number(this._item?.startTime?.seconds ?? '0')) {
+    if (this._time > Number(this._item?.startTime?.seconds ?? '0')) {
       dom.style.color = 'red';
     } else {
       dom.style.removeProperty('color')
@@ -74,17 +72,12 @@ export class KaraokeNode extends TextNode {
     };
   }
 
-  updateTextColor(sec: number) {
-    if (sec === this._sec) return;
-    this._sec = sec;
-  }
-
   get item() {
     return this._item;
   }
 
-  isTextEntity(): true {
-    return true;
+  set time(val: number) {
+    this._time = val;
   }
 }
 

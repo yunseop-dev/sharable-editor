@@ -1,7 +1,7 @@
 import { useLexicalComposerContext } from "@lexical/react/LexicalComposerContext";
 import dayjs from "dayjs";
 import duration from "dayjs/plugin/duration";
-import React, { useCallback, useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo } from "react";
 import { KaraokeNode } from "../decorator-nodes/KaraokeNode";
 import { useTimer } from 'use-timer';
 
@@ -18,8 +18,8 @@ function KaraokePlugin() {
     }).format('mm:ss'), [time]);
 
     useEffect(() => {
-        const removeTransform = editor.registerNodeTransform(KaraokeNode, (textNode: KaraokeNode) => {
-            textNode.updateTextColor(time)
+        const removeTransform = editor.registerNodeTransform(KaraokeNode, (node: KaraokeNode) => {
+            node.time = time;
         });
         return removeTransform;
     }, [time, editor])
